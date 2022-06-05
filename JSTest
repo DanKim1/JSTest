@@ -10,8 +10,13 @@
                 return num + 7;
             }
 
+            function multiply(multi1, multi2){
+                return multi1 * multi2;
+            }
+
             console.log("Hello, World!");
-            console.log(add7(5));
+            console.log("add7 function output: " + add7(5));
+            console.log("multiply function output: " + multiply(5,3));
         </script>
     </body>
 </html>
