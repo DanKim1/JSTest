@@ -20,15 +20,23 @@
                 return startLetter + str.substring(1);
             }
 
+            function lastLetter(str){
+                let strSize = str.length;
+
+                return str.charAt(strSize - 1);
+            }
+
             let add7Input = 5;
             let multiplyInput1 = 3;
             let multiplyInput2 = 3;
             let capitalizeInput = "cheese";
+            let lastLetterInput = "testtest";
 
             console.log("Hello, World!");
             console.log("add7 function output: " + add7(add7Input));
             console.log("multiply function output: " + multiply(multiplyInput1,multiplyInput2));
             console.log("capitalize function output value "+capitalizeInput+": " + capitalize(capitalizeInput));
+            console.log("lastletter function output value "+lastLetterInput+": " + lastLetter(lastLetterInput));
         </script>
     </body>
 </html>
