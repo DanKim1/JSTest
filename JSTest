@@ -14,9 +14,21 @@
                 return multi1 * multi2;
             }
 
+            function capitalize(str){
+                let startLetter = str.charAt(0).toUpperCase();
+
+                return startLetter + str.substring(1);
+            }
+
+            let add7Input = 5;
+            let multiplyInput1 = 3;
+            let multiplyInput2 = 3;
+            let capitalizeInput = "cheese";
+
             console.log("Hello, World!");
-            console.log("add7 function output: " + add7(5));
-            console.log("multiply function output: " + multiply(5,3));
+            console.log("add7 function output: " + add7(add7Input));
+            console.log("multiply function output: " + multiply(multiplyInput1,multiplyInput2));
+            console.log("capitalize function output value "+capitalizeInput+": " + capitalize(capitalizeInput));
         </script>
     </body>
 </html>
