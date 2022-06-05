@@ -6,7 +6,12 @@
     </head>
     <body>
         <script>
-            console.log("Hello, World!")
+            function add7(num){
+                return num + 7;
+            }
+
+            console.log("Hello, World!");
+            console.log(add7(5));
         </script>
     </body>
 </html>
